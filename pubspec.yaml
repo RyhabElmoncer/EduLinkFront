@@ -28,8 +28,12 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  auto_route: ^7.2.0
+  win32: ^5.0.6
+  build_runner: ^2.4.6
   flutter:
     sdk: flutter
+  shared_preferences: ^2.1.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -39,6 +43,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  auto_route_generator: ^7.1.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
